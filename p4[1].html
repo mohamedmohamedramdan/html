@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>computer architecture
+</title>
+</head>
+<body>
+	<h1>computer architecture (memory hierarchy desing)
+</h1>
+	<h2>links</h2>
+	<ul>
+  <li><a href="index.html">main page</a></li>
+  <li><a href="p1.html">introduction of memory hierarchy desing</a></li>
+  <li><a href="p2.html">memory hierarchy desing table</a></li>
+   <li><a href="p3.html">memory hierarchy desing image</a></li>
+   <li><a href="p4.html">memory hierarchy desing quick review</a></li>
+</ul>
+<h3>quick review</h3>
+<p> The increasing size and thus importance of this gap led to the migration of the
+basics of memory hierarchy into undergraduate courses in computer architecture,
+and even to courses in operating systems and compilers. Thus, we'll start with a
+quick review of caches and their operation. The bulk of the chapter, however,
+describes more advanced innovations that attack the processor-memory perfor-
+mance gap.
+When a word is not found in the cache, the word must be fetched from a
+lower level in the hierarchy (which may be another cache or the main memory)
+and placed in the cache before continuing. Multiple words, called a block (or
+line), are moved for efficiency reasons, and because they are likely to be needed
+soon due to spatial locality. Each cache block includes a tag to indicate which
+memory address it corresponds to.
+A key design decision is where blocks (or lines) can be placed in a cache. The
+most popular scheme is set associative, where a set is a group of blocks in the
+cache. A block is first mapped onto a set, and then the block can be placed any-
+where within that set. Finding a block consists of first mapping the block address
+to the set and then searching the set- usually in parallel-to find the block.</p>
+</body>
+</html>
